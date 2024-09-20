@@ -1,0 +1,40 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/toonshader.shader"
+
+	//---- MToon Lighting ----
+	F_USE_NORMAL_MAP 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material ----
+	Normal "models/citizen/skin/citizen_skin_normal.png"
+
+	//---- MToon Color ----
+	InputLitTexture "models/citizen/skin/citizen_skin_young_color.png"
+	LitColor "[0.411765 0.258824 0.168627 1.000000]"
+	ShadeColor "[0.098039 0.054902 0.066667 1.000000]"
+
+	//---- MToon Emission ----
+	EmissionColor "[0.117647 0.117647 0.117647 1.000000]"
+	InputEmissionMap "models/citizen/skin/citizen_skin_color.png"
+	InputMatCap ""
+	matcapStrength "0.000"
+
+	//---- MToon Lighting ----
+	IndirectLightIntensity "0.000"
+	InputShadingGradeTexture "[0.000000 0.000000 0.000000 1.000000]"
+	LightColorAttenuation "0.000"
+	ShadingGradeRate "0.275"
+	ShadingShift "-0.478"
+	ShadingToony "0.798"
+
+	//---- MToon Rim ----
+	RimColor "[0.000000 0.000000 0.000000 1.000000]"
+	RimFresnelPower "1.000"
+	RimLift "0.000"
+	RimLightingMix "0.000"
+}

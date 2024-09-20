@@ -1,0 +1,462 @@
+{
+  "__guid": "5b4ff74d-1f61-49af-91ef-dd56bc4b1827",
+  "GameObjects": [
+    {
+      "__guid": "b99deda2-11f4-4a4b-ba70-20c8574ba050",
+      "Flags": 0,
+      "Name": "Plane",
+      "Scale": "10,10,10",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "1bcfcf71-c909-4e12-86c6-d2461cb079e8",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/plane.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "2484af80-05c3-4e39-9387-b05fc70e47e9",
+      "Flags": 0,
+      "Name": "Terry",
+      "Position": "0,-96,0.000003223266",
+      "Rotation": "0,0,0.9198928,0.3921699",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SkinnedModelRenderer",
+          "__guid": "1ec6cf56-dad0-4694-ba9d-5df78847353a",
+          "BodyGroups": 341,
+          "CreateBoneObjects": false,
+          "MaterialOverride": "materials/toon_terry.vmat",
+          "Model": "models/citizen/citizen.vmdl",
+          "Morphs": {},
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1",
+          "UseAnimGraph": true
+        }
+      ]
+    },
+    {
+      "__guid": "4e9e8a81-fa00-4fd2-b423-83ed922422e1",
+      "Flags": 0,
+      "Name": "Terry (2)",
+      "Position": "-37.76636,-132.243,0.000003223266",
+      "Rotation": "0,0,0.9198928,0.3921699",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SkinnedModelRenderer",
+          "__guid": "aed4e656-8a95-4798-824d-5feed6d92e4c",
+          "BodyGroups": 341,
+          "CreateBoneObjects": false,
+          "MaterialGroup": "default",
+          "Model": "models/citizen/citizen.vmdl",
+          "Morphs": {},
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1",
+          "UseAnimGraph": true
+        }
+      ]
+    },
+    {
+      "__guid": "0ba1c5bb-ff24-46c5-9cbe-91faaa373023",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "-153.63,-63.24135,126.2993",
+      "Rotation": "-0.04533558,0.4091747,-0.2553721,0.8748177",
+      "Tags": "light,light_directional",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "8a34138b-1434-46c1-b25f-0b4557d860f2",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "b20377b5-768b-4615-80ef-8028ef5549c7",
+      "Flags": 0,
+      "Name": "2D Skybox",
+      "Tags": "skybox",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SkyBox2D",
+          "__guid": "c92e29a8-02a5-4be1-ae17-21fe04d6d025",
+          "SkyMaterial": "materials/skybox/skybox_day_01.vmat",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "44541b9b-852c-43ad-b5ba-220af0c7a115",
+      "Flags": 0,
+      "Name": "Point Light",
+      "Position": "-43.23022,-95.23425,47.4067",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "b663da66-6534-4e75-8d23-d295bacd995d",
+          "Attenuation": 10,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "2.53488,2.53488,2.53488,1",
+          "Radius": 100.599976,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "61d1540f-e56c-4a81-b262-cef651950fdc",
+      "Flags": 0,
+      "Name": "Point Light (1)",
+      "Position": "-115.2043,-125.6048,30.60248",
+      "Tags": "light_point,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PointLight",
+          "__guid": "7ad65903-6cdd-4e2a-8a43-0128870bea28",
+          "Attenuation": 10,
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "77.60999,0,0,1",
+          "Radius": 24.399965,
+          "Shadows": true
+        }
+      ]
+    },
+    {
+      "__guid": "ae53eab3-c4bd-4d3a-847e-8434b5d99fae",
+      "Flags": 0,
+      "Name": "Oven",
+      "Position": "-125.4914,-140.0518,0",
+      "Rotation": "0,0,0.8660254,0.5000001",
+      "Scale": "0.6,0.6,0.6",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "a8c29c2d-26a0-4cfb-8b63-9c299015762a",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/citizen_props/oldoven.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "9be0cc9a-b414-464e-83b8-b5d87babadf8",
+      "Flags": 0,
+      "Name": "Oven (1)",
+      "Position": "-98.43772,-124.4324,0",
+      "Rotation": "0,0,0.8660254,0.5000001",
+      "Scale": "0.6,0.6,0.6",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "bc2f82a9-b23f-41aa-8b7e-b78db81e433c",
+          "BodyGroups": 18446744073709551615,
+          "MaterialOverride": "materials/toon_oven.vmat",
+          "Model": "models/citizen_props/oldoven.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "62e52133-5892-4dc4-acae-6d267b13e5bc",
+      "Flags": 0,
+      "Name": "Oven (2)",
+      "Position": "-57.7882,-95.95821,0.000005633079",
+      "Rotation": "0,0,0.9659259,-0.2588188",
+      "Scale": "0.6,0.6,0.6",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "f10527a8-e674-4494-a5c7-e7dfceab660e",
+          "BodyGroups": 18446744073709551615,
+          "MaterialOverride": "materials/toon_cardboardbox.vmat",
+          "Model": "models/citizen_props/cardboardbox01.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "23e3fb03-74c8-45d0-8bf5-675617641640",
+      "Flags": 0,
+      "Name": "Oven (4)",
+      "Position": "-38.49205,-84.81763,0.000005633079",
+      "Rotation": "0,0,0.8660254,0.5000001",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "7e0e5433-effb-4c02-b750-0a04a8ee711c",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/citizen_props/beachball.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "bed3b967-120f-4d93-a788-97d28c5dbd3f",
+      "Flags": 0,
+      "Name": "Oven (5)",
+      "Position": "-19.24648,-73.70621,0.000005633079",
+      "Rotation": "0,0,0.8660254,0.5000001",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "6e040197-fff9-46be-915a-4b6c92db4c36",
+          "BodyGroups": 18446744073709551615,
+          "MaterialOverride": "materials/toon_beachball.vmat",
+          "Model": "models/citizen_props/beachball.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "7bc4f358-7cc3-41cc-a75b-1a327cb851fe",
+      "Flags": 0,
+      "Name": "Oven (6)",
+      "Position": "6.287989,-59.22728,5.706089",
+      "Rotation": "-0.3535534,-0.6123723,0.6123724,0.3535535",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "a6a475ae-a392-44e8-aec5-d35c0eb8fbe8",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/citizen_props/wheel02.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "04943aa8-a724-4597-baca-52067807c033",
+      "Flags": 0,
+      "Name": "Oven (9)",
+      "Position": "6.287998,-59.22728,27.20594",
+      "Rotation": "-0.5609855,-0.4304592,0.5609856,-0.4304591",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "57e2255b-9dac-4061-bc47-ce6835c97081",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/citizen_props/wheel02.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "e039c05a-ec53-40aa-b2c3-cf0fb9d8d669",
+      "Flags": 0,
+      "Name": "Oven (7)",
+      "Position": "30.94575,-39.29234,5.868421",
+      "Rotation": "0.3535534,0.6123723,0.6123724,0.3535535",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "3d1abd92-126c-4d50-a716-e390bcf2c5cb",
+          "BodyGroups": 18446744073709551615,
+          "MaterialOverride": "materials/toon_wheel.vmat",
+          "Model": "models/citizen_props/wheel02.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "4a1db3d2-5536-4300-ba7f-9db04a95fd2a",
+      "Flags": 0,
+      "Name": "Oven (8)",
+      "Position": "30.94574,-39.29234,27.01088",
+      "Rotation": "-0.4999999,0.5,-0.4999999,-0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "1cb64e43-143f-4a80-a871-d1b14b1dc6c1",
+          "BodyGroups": 18446744073709551615,
+          "MaterialOverride": "materials/toon_wheel.vmat",
+          "Model": "models/citizen_props/wheel02.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "72e53a91-3023-4e49-a9fb-76482735ef5e",
+      "Flags": 0,
+      "Name": "Oven (3)",
+      "Position": "-74.96515,-106.2726,0.000005633079",
+      "Rotation": "0,0,0.9567739,-0.2908331",
+      "Scale": "0.6,0.6,0.6",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "2d8ab767-520c-478f-8f81-0b307bb44671",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/citizen_props/cardboardbox01.vmdl",
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "db2b214d-d235-4ac0-926f-ddf988e6353b",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "-43.30363,91.40984,32.68456",
+      "Rotation": "0,0,-0.6760974,0.7368125",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "17b4eb24-9e13-4ed5-a019-c73a4cf2879b",
+          "BackgroundColor": "0.20989,0.31119,0.35814,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "toonshaderexamplescene",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

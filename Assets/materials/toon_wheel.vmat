@@ -1,0 +1,41 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/toonshader.shader"
+
+	//---- MToon Lighting ----
+	F_USE_NORMAL_MAP 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material ----
+	Normal "models/citizen_props/wheel02_normal.png"
+
+	//---- MToon Color ----
+	InputLitTexture "models/citizen_props/wheel02transparency_color.png"
+	LitColor "[0.525490 0.631373 0.674510 0.196078]"
+	LitIntensity "4.493"
+	ShadeColor "[0.054902 0.047059 0.050980 1.000000]"
+
+	//---- MToon Emission ----
+	EmissionColor "[0.800000 0.800000 0.800000 1.000000]"
+	InputEmissionMap "models/citizen_props/wheel02transparency_color.png"
+	InputMatCap "[0.000000 0.000000 0.000000 1.000000]"
+	matcapStrength "0.000"
+
+	//---- MToon Lighting ----
+	IndirectLightIntensity "0.000"
+	InputShadingGradeTexture "[0.494118 0.494118 0.494118 1.000000]"
+	LightColorAttenuation "0.000"
+	ShadingGradeRate "0.279"
+	ShadingShift "0.283"
+	ShadingToony "0.865"
+
+	//---- MToon Rim ----
+	RimColor "[0.000000 0.000000 0.000000 1.000000]"
+	RimFresnelPower "1.000"
+	RimLift "0.000"
+	RimLightingMix "0.000"
+}

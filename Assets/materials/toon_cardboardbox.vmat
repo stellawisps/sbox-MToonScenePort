@@ -1,0 +1,41 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/toonshader.shader"
+
+	//---- MToon Lighting ----
+	F_USE_NORMAL_MAP 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material ----
+	Normal "models/citizen_props/cardboardbox01a_normal.png"
+
+	//---- MToon Color ----
+	InputLitTexture "models/citizen_props/cardboardbox01a_color.png"
+	LitColor "[1.000000 1.000000 1.000000 1.000000]"
+	LitIntensity "1.000"
+	ShadeColor "[0.356863 0.266667 0.137255 1.000000]"
+
+	//---- MToon Emission ----
+	EmissionColor "[0.419608 0.419608 0.419608 1.000000]"
+	InputEmissionMap "models/citizen_props/cardboardbox01a_color.png"
+	InputMatCap ""
+	matcapStrength "0.000"
+
+	//---- MToon Lighting ----
+	IndirectLightIntensity "0.000"
+	InputShadingGradeTexture "[0.552941 0.552941 0.552941 1.000000]"
+	LightColorAttenuation "0.000"
+	ShadingGradeRate "0.127"
+	ShadingShift "0.841"
+	ShadingToony "0.986"
+
+	//---- MToon Rim ----
+	RimColor "[0.000000 0.000000 0.000000 1.000000]"
+	RimFresnelPower "1.000"
+	RimLift "0.000"
+	RimLightingMix "0.000"
+}

@@ -1,0 +1,41 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/toonshader.shader"
+
+	//---- MToon Lighting ----
+	F_USE_NORMAL_MAP 1
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Material ----
+	Normal "models/citizen_props/oldovennormal_normal.png"
+
+	//---- MToon Color ----
+	InputLitTexture "models/citizen_props/oldovenalbedo_color.png"
+	LitColor "[1.000000 1.000000 1.000000 1.000000]"
+	LitIntensity "0.833"
+	ShadeColor "[0.149020 0.376471 0.831373 1.000000]"
+
+	//---- MToon Emission ----
+	EmissionColor "[0.301961 0.301961 0.301961 1.000000]"
+	InputEmissionMap "models/citizen_props/oldovenalbedo_color.png"
+	InputMatCap "[0.000000 0.000000 0.000000 1.000000]"
+	matcapStrength "0.000"
+
+	//---- MToon Lighting ----
+	IndirectLightIntensity "0.000"
+	InputShadingGradeTexture "[0.470588 0.470588 0.470588 1.000000]"
+	LightColorAttenuation "0.000"
+	ShadingGradeRate "0.511"
+	ShadingShift "0.101"
+	ShadingToony "0.954"
+
+	//---- MToon Rim ----
+	RimColor "[0.000000 0.000000 0.000000 1.000000]"
+	RimFresnelPower "1.000"
+	RimLift "0.000"
+	RimLightingMix "0.000"
+}
