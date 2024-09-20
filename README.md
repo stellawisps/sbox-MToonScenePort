@@ -3,8 +3,7 @@
 **Asset.Party link: https://sbox.game/stellawisps/toonshader**
 
 Toon Shader with Global Illumination. Ported to s&amp;box (Source 2).
-
-![sbox_mtoon_demo](https://user-images.githubusercontent.com/5277788/202857510-282e7438-6486-467f-b082-4c604cc1840c.png)
+![sbox_mtoon_demo](https://github.com/user-attachments/assets/8f34c130-5866-4f61-aef9-24b017b9c0fa)
 
 # Source Shaders
 https://github.com/Santarh/MToon
